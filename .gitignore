@@ -1,0 +1,16 @@
+
+# Ambiente Virtual
+.venv/
+venv/
+env/
+
+# Python (arquivos temporários)
+__pycache__/
+*.pyc
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Bloco de Notas Temporário
+# Será excluido ao finalizar o Projeto
+bloco_de_notas.txt
