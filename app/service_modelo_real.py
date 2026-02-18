@@ -9,6 +9,7 @@ class ModelService:
     Serviço responsável por carregar e chamar o modelo treinado.
     """
 
+
     def __init__(
         self,
         model_path: str = "artifacts/model.keras",

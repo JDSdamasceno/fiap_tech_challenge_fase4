@@ -1,5 +1,6 @@
 from fastapi import FastAPI, HTTPException
 from app.schemas import PredictRequest, PredictResponse
+#Alterar o .service quando for testar o modelo real, mirando no service_modelo_real.py
 from app.service import ModelService
 from app.config import settings
 import time

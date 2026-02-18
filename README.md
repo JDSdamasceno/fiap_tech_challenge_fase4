@@ -85,3 +85,7 @@
 # Substitua a lógica mock em:
 #   app/service.py -> ModelService.predict(historical_prices, horizon)
 # Retorne uma List[float] com tamanho = horizon
+
+
+
+Para testar com o modelo real, mirar no arquivo service_modelo_real.py, e dentro dele passar o caminho do modelo e do arquivo .pkl, bem como ajustar o window-size para o mesmo que foi utilizado para desenvolvimento do modelo.
